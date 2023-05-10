@@ -1,0 +1,40 @@
+Project UAS Praktikum Jaringan Komputer 
+Build a Simple Office Network 
+Anda ditugaskan untuk menyusun sebuah jaringan kantor sederhana. Kantor tersebut memiliki 4 buah ruangan yaitu ruang printer, ruang server, ruang kerja bersama / tim, dan ruang kantor. Perangkat untuk setiap ruangan adalah sebagai berikut : 
+Ruang Printer : 
+• 1 buah Printer 
+• 2 buah PC 
+• 1 buah Switch 
+• 1 buah Router (Router A) 
+Ruang Server : 
+• 2 buah Server (DHCP server dan DNS server) 
+• 1 buah Switch 
+• 1 buah Router (Router B) 
+Ruang Kerja tim : 
+• 5 buah PC 
+• 1 buah Switch 
+• 1 buah Router (Router C) 
+Ruang Printer : 
+• 4 buah PC 
+• 1 buah Printer 
+• 1 buah Switch 
+• 1 buah Router (Router D) 
+
+Project UAS Praktikum Jaringan Komputer 
+Task 
+• Buatlah diagram jaringan di masing-masing ruangan 
+• Router yang terdapat pada setiap ruangan dihubungkan ke satu Switch yang terletak di luar ruangan 
+• Lakukan dynamic routing dengan cara : 
+– memberikan IP ke Router dan kedua Server terlebih dahulu 
+– melakukan konfigurasi DHCP pada Router yang terdapat pada masing-masing ruangan (termasuk setting DNS Server) 
+Note : ambil referensi dari modul 7, lakukan konfigurasi DHCP tersebut ke masing-masing router 
+• Lakukan uji konektivitas dengan cara melakukan ping dari satu network ke network lain 
+• Contoh diagram jaringan adalah seperti berikut : 
+
+Note : untuk bentuk diagramnya bebas boleh membuat berbagai macam variasi, begitu juga dengan pengalamatan IP, boleh memakai variasi address apapun 
+
+Project UAS Praktikum Jaringan Komputer 
+Question 
+• Menurut anda, prefix apakah yang cocok untuk jaringan kantor tersebut (jawaban bersifat bebas menurut praktikan) ? 
+• Tuliskan Network Address untuk masing-masing keempat ruangan dan Network yang menghubungkan antar Router ? (Buat listnya) 
+
